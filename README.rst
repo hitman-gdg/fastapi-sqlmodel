@@ -1,4 +1,4 @@
-FastAPI-SQModel
+FastAPI-SQLModel
 ==================
 
 FastAPI-SQLModel provides a simple integration between FastAPI_ and SQLModel_ in your application. It gives access to useful helpers to facilitate the completion of common tasks.
