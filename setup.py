@@ -28,7 +28,7 @@ setup(
     python_requires=">=3.9",
     install_requires=["starlette>=0.12.9", "SQLAlchemy>=1.2"],
     classifiers=[
-        "Development Status :: 1 - Beta",
+        "Development Status :: 4 - Beta",
         "Environment :: Web Environment",
         "Framework :: AsyncIO",
         "Intended Audience :: Developers",
