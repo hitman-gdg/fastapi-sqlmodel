@@ -77,7 +77,7 @@ Sometimes it is useful to be able to access the database outside the context of 
         # use it as a context manager, like so:
 
         with db():
-            user_count = db.session.exec(select(Hero)).count()
+            user_count = len(db.session.exec(select(User)).all())
 
             db.session.add(UserCount(user_count))
             db.session.commit()
