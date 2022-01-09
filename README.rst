@@ -36,7 +36,7 @@ Usage inside of a route
 
     @app.get("/users")
     def get_users():
-        users = db.session.query(User).all()
+        users = db.session.exec(select(Hero)).all()
 
         return users
 
